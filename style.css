@@ -5,11 +5,11 @@ body{
 }
 h1{
     font-size: 50px ;
+    font-weight: 500;
 }
 .header-orange-title{
-    color: orange;
-}
-section{
+    color: orange;}
+.flexible-container{
     display: flex;
     margin-bottom: 150px;
 }
@@ -38,4 +38,27 @@ section{
     background-position: right;
     padding-right: 70px;
     
+    
+}
+.third-header{
+    background-image: url(img/exp-bg.png);
+    background-repeat: no-repeat;
+    background-position: left;
+}
+.shadow-div{
+    box-shadow: 10px 10px 40px gray;
+    width: 40%;
+    margin-left:5% ;
+    margin-right: 5%;
+    padding-left: 10px;
+    border-radius: 5px;
+}
+.orange-border{
+    border-left: 5px solid tomato;
+}
+.blue-border{
+    border-left: 5px solid blue ;
+}
+footer p{
+    text-align: center;
 }
