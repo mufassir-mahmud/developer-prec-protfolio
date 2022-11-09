@@ -11,6 +11,7 @@ h1{
 }
 section{
     display: flex;
+    margin-bottom: 150px;
 }
 .half-width{
     width: 50%;
@@ -30,4 +31,11 @@ section{
 .header-section{
     background-image: url(img/top-banner.png);
     background-repeat: no-repeat;
+}
+.second-header{
+    background-image: url(img/dream-bg.png) ;
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 70px;
+    
 }
